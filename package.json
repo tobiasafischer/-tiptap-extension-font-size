@@ -1,6 +1,6 @@
 {
 	"name": "@tobiasafischer/tiptap-extension-font-size",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "a fontsize implementation for tiptap which includes cursor size change",
 	"main": "src/index.ts",
 	"scripts": {
