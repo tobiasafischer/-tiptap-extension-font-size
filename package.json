@@ -1,24 +1,28 @@
 {
-  "name": "@tiptap/extension-font-size",
-  "version": "1.0.0",
-  "description": "a fontsize implementation for tiptap which includes cursor size change",
-  "main": "src/index.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tobiasafischer/-tiptap-extension-font-size.git"
-  },
-  "keywords": [
-    "tiptap",
-    "extension",
-    "fontsize"
-  ],
-  "author": "Tobias Fischer",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/tobiasafischer/-tiptap-extension-font-size/issues"
-  },
-  "homepage": "https://github.com/tobiasafischer/-tiptap-extension-font-size#readme"
+	"name": "@tobiasafischer/tiptap-extension-font-size",
+	"version": "1.0.0",
+	"description": "a fontsize implementation for tiptap which includes cursor size change",
+	"main": "src/index.ts",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/tobiasafischer/-tiptap-extension-font-size.git"
+	},
+	"keywords": [
+		"tiptap",
+		"extension",
+		"fontsize"
+	],
+	"author": "Tobias Fischer",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/tobiasafischer/-tiptap-extension-font-size/issues"
+	},
+	"homepage": "https://github.com/tobiasafischer/-tiptap-extension-font-size#readme",
+	"dependencies": {
+		"@tiptap/core": "^2.0.0-beta.175",
+		"@tiptap/extension-text-style": "^2.0.0-beta.23"
+	}
 }
