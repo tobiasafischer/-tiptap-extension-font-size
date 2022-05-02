@@ -2,9 +2,15 @@
 	"name": "@tobiasafischer/tiptap-extension-font-size",
 	"version": "1.0.2",
 	"description": "a fontsize implementation for tiptap which includes cursor size change",
-	"main": "src/index.ts",
+	"main": "index.js",
+	"types": "index.d.ts",
+	"files": [
+		"src",
+		"dist"
+	],
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "npx tsc"
 	},
 	"repository": {
 		"type": "git",
@@ -24,5 +30,8 @@
 	"dependencies": {
 		"@tiptap/core": "^2.0.0-beta.175",
 		"@tiptap/extension-text-style": "^2.0.0-beta.23"
+	},
+	"devDependencies": {
+		"typescript": "^4.6.4"
 	}
 }
